@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "simple-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/simpleTest/SimpleTestWebPart.js",
+          "manifest": "./src/webparts/simpleTest/SimpleTestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SimpleTestWebPartStrings": "lib/webparts/simpleTest/loc/{locale}.js"
+  }
+}

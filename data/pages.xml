@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2019/09/ProvisioningSchema" Version="1.0"
+                  DisplayName="Issue Page Template">
+  <pnp:Templates>
+    <pnp:ProvisioningTemplate ID="IssuePageTemplate" Version="1.0" BaseSiteTemplate="SITEPAGEPUBLISHING#0" DisplayName="Issue Page"
+                              Scope="RootSite">
+      <pnp:Navigation AddNewPagesToNavigation="true" CreateFriendlyUrlsForNewPages="true">
+        <pnp:GlobalNavigation NavigationType="Structural">
+          <pnp:StructuralNavigation RemoveExistingNodes="false" />
+        </pnp:GlobalNavigation>
+        <pnp:CurrentNavigation NavigationType="StructuralLocal">
+          <pnp:StructuralNavigation RemoveExistingNodes="false">
+            <pnp:NavigationNode Title="Page Red" Url="{site}/SitePages/TestPageRed.aspx" />
+            <pnp:NavigationNode Title="Page Blue" Url="{site}/SitePages/TestPageBlue.aspx" />
+          </pnp:StructuralNavigation>
+        </pnp:CurrentNavigation>
+      </pnp:Navigation>
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="TestPageRed.aspx" Publish="true" PromoteAsNewsArticle="false" Overwrite="true" Layout="SingleWebPartAppPage" EnableComments="false"
+                            Title="TestPageRed">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumnFullWidth">
+              <pnp:Controls>
+                <!-- Red control -->
+                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;df422bbf-b4c5-4fab-b70f-468b11dae94d&quot;, &quot;instanceId&quot;: &quot;9bad87cb-b66a-4fe2-8a05-a44891fca131&quot;, &quot;title&quot;: &quot;SimpleTest&quot;, &quot;description&quot;: &quot;SimpleTest description&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;description&quot;:&quot;SimpleTest&quot;,&quot;color&quot;:&quot;red&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="df422bbf-b4c5-4fab-b70f-468b11dae94d" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="TestPageBlue.aspx" Publish="true" PromoteAsNewsArticle="false" Overwrite="true" Layout="SingleWebPartAppPage" EnableComments="false"
+                            Title="TestPageBlue">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumnFullWidth">
+              <pnp:Controls>
+                <!-- Blue control -->
+                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;df422bbf-b4c5-4fab-b70f-468b11dae94d&quot;, &quot;instanceId&quot;: &quot;9bad87cb-b66a-4fe2-8a05-a44891fca131&quot;, &quot;title&quot;: &quot;SimpleTest&quot;, &quot;description&quot;: &quot;SimpleTest description&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;description&quot;:&quot;SimpleTest&quot;,&quot;color&quot;:&quot;blue&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="df422bbf-b4c5-4fab-b70f-468b11dae94d" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
