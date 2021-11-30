@@ -19,10 +19,10 @@
         <pnp:ClientSidePage PageName="TestPageRed.aspx" Publish="true" PromoteAsNewsArticle="false" Overwrite="true" Layout="SingleWebPartAppPage" EnableComments="false"
                             Title="TestPageRed">
           <pnp:Sections>
-            <pnp:Section Order="1" Type="OneColumnFullWidth">
+            <pnp:Section Order="1" Type="OneColumn">
               <pnp:Controls>
                 <!-- Red control -->
-                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;df422bbf-b4c5-4fab-b70f-468b11dae94d&quot;, &quot;instanceId&quot;: &quot;9bad87cb-b66a-4fe2-8a05-a44891fca131&quot;, &quot;title&quot;: &quot;SimpleTest&quot;, &quot;description&quot;: &quot;SimpleTest description&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;description&quot;:&quot;SimpleTest&quot;,&quot;color&quot;:&quot;red&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="df422bbf-b4c5-4fab-b70f-468b11dae94d" Order="1" Column="1" />
+                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;df422bbf-b4c5-4fab-b70f-468b11dae94d&quot;, &quot;instanceId&quot;: &quot;9bad87cb-b66a-4fe2-8a05-a44891fca133&quot;, &quot;title&quot;: &quot;SimpleTest&quot;, &quot;description&quot;: &quot;SimpleTest description&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;description&quot;:&quot;SimpleTest&quot;,&quot;color&quot;:&quot;red&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="df422bbf-b4c5-4fab-b70f-468b11dae94d" Order="1" />
               </pnp:Controls>
             </pnp:Section>
           </pnp:Sections>
@@ -30,10 +30,10 @@
         <pnp:ClientSidePage PageName="TestPageBlue.aspx" Publish="true" PromoteAsNewsArticle="false" Overwrite="true" Layout="SingleWebPartAppPage" EnableComments="false"
                             Title="TestPageBlue">
           <pnp:Sections>
-            <pnp:Section Order="1" Type="OneColumnFullWidth">
+            <pnp:Section Order="1" Type="OneColumn">
               <pnp:Controls>
                 <!-- Blue control -->
-                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;df422bbf-b4c5-4fab-b70f-468b11dae94d&quot;, &quot;instanceId&quot;: &quot;9bad87cb-b66a-4fe2-8a05-a44891fca131&quot;, &quot;title&quot;: &quot;SimpleTest&quot;, &quot;description&quot;: &quot;SimpleTest description&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;description&quot;:&quot;SimpleTest&quot;,&quot;color&quot;:&quot;blue&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="df422bbf-b4c5-4fab-b70f-468b11dae94d" Order="1" Column="1" />
+                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;df422bbf-b4c5-4fab-b70f-468b11dae94d&quot;, &quot;instanceId&quot;: &quot;9bad87cb-b66a-4fe2-8a05-a44891fca132&quot;, &quot;title&quot;: &quot;SimpleTest&quot;, &quot;description&quot;: &quot;SimpleTest description&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;description&quot;:&quot;SimpleTest&quot;,&quot;color&quot;:&quot;blue&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="df422bbf-b4c5-4fab-b70f-468b11dae94d" Order="1" />
               </pnp:Controls>
             </pnp:Section>
           </pnp:Sections>
